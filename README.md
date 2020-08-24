@@ -6,7 +6,7 @@ David Kaiser
 Description
 -----------
 
-This function reads data downloaded from HZG database as .dat into a data frame. It removes the header, can change the column name of the target data column, and can add the header meta data as new columns. The cunction was tested to work for downloaded files of this data: FerryBox, Time-Series - LandStation (TSplot), Survey - Ship (TSplot). Files with empty data rows result in a df with the column names and a row indicating missing data in the file.
+This function reads data downloaded from HZG database as .dat into a data frame. It removes the header, can change the column name of the target data column, and can add the header meta data as new columns. The function was tested to work for downloaded files of this data: FerryBox, Time-Series - LandStation (TSplot), Survey - Ship (TSplot). Files with empty data rows result in a df with the column names and a row indicating missing data in the file.
 
 Arguments
 ---------
